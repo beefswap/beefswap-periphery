@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/v2-periphery",
   "version": "1.1.0-beta.0",
-  "description": "🎚 Peripheral smart contracts for interacting with Uniswap V2",
+  "description": "🎚 Peripheral smart contracts for interacting with Beefswap V2",
   "engines": {
     "node": ">=10"
   },
@@ -15,6 +15,7 @@
     "contracts"
   ],
   "dependencies": {
+    "@beefswap/core": "file:../beefswap-core/beefswap-core-1.0.0.tgz",
     "@uniswap/lib": "1.1.1",
     "@uniswap/v2-core": "1.0.0"
   },
