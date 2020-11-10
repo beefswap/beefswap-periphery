@@ -1,4 +1,5 @@
 var Web3 = require("web3");
+
 var BigNumber = require("bignumber.js");
 const EthereumTx = require('ethereumjs-tx').Transaction
 
@@ -43,3 +44,4 @@ web3.eth.getTransactionCount(address).then(
 )
 //调用合约的方法
 //contract.methods.addLiquidityETH('0xDb52A451dbb800614F340cF8bfefE7A22aF41273',1000,1000,0.1,0x25c0F405d71A189352575d1afcD18245c04D85Eb, 12345679).call().then(console.log);
+

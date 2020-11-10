@@ -14,8 +14,8 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Greeter = await hre.ethers.getContractFactory("");
-  const greeter = await Greeter.deploy('','');
+  const Greeter = await hre.ethers.getContractFactory("BeefswapV2Router02");
+  const greeter = await Greeter.deploy('0x1594E54b85F4BAd743F6613bd1215A4b6a4178Be','0xc778417E063141139Fce010982780140Aa0cD5Ab');
 
   await greeter.deployed();
 
