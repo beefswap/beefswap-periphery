@@ -22,6 +22,9 @@ async function main() {
   console.log("Greeter deployed to:", greeter.address);
 }
 
+
+//npx hardhat verify --network ropsten   "0xD6645FA7512Ff7030D66574A7F8df279b72c8733" "0xc778417E063141139Fce010982780140Aa0cD5Ab"
+
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
 main()
