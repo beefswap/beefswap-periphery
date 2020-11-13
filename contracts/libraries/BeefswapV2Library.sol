@@ -21,7 +21,7 @@ library BeefswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'45dd786794db5d7bc2301c691fe363dc26d5f7e768b71ba24f37e92addaa4570' // init code hash
+                hex'87f8d3d037324dcb7776d80537e6ef8d274b8aa08becb2062e6462350a9822be' // init code hash
             ))));
     }
 
